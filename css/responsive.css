@@ -1,0 +1,195 @@
+
+/* Tablet- mobile and width < 1024px */
+@media only screen and (max-width: 63.9375em) {
+    /* =========== HEADER ============ */
+    .nav__bars-btn {
+        display: block;
+        position: absolute;
+        right: 1rem;
+    }
+    .header__logo {
+        margin-left: 1rem;
+    }
+    .header__nav {
+        display: none;
+    }
+    .btn__mobile {
+        margin-top: 1rem;
+    }
+
+    /* ============== HOME ========= */
+    .main__grid {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+    .main__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0 5rem;
+    }
+    .main__content {
+        align-items: center;
+        text-align: center;
+        padding: 0 3rem;
+    }
+    .main__text h1 {
+        font-size: 5rem;
+    }
+    /* ============ cardItem ========== */
+    .carditem__grid {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr;
+        row-gap: 10rem;
+    }
+    .card__item {
+      padding: 0 3rem;
+      
+    }
+    /* ============ service =========== */
+    .reverse__layout{
+        order: 0;
+        
+    }
+    .services__content {
+        padding-left: 3rem !important;
+        padding-right: 3rem;
+        text-align: center;
+
+    }
+    .services__btn {
+        width: 100%;
+    }
+
+    /* ================ PRICE ============== */
+    .pricing {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .pricing__list {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing__item {
+        width: 80%;
+        transform: scale(1);
+        justify-self: center;
+    }
+    .pricing__scale {
+        transform: scale(1);
+         padding-top: 3rem;
+    }
+    .pricing__item .btn {
+        margin-bottom: 6rem;
+    }
+    .pricing__item h1 {
+        padding-top: 6rem;
+       
+    }
+    .pricing__text h1 {
+        text-align: center;
+    }
+    /* ============ clients ========= */
+    .clients {
+        row-gap: 2rem;
+    }
+    .clients__title h1 {
+        text-align: center;
+    }
+    .clients__slide {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 2rem;
+    }
+    .slide__item {
+        padding: 0 1rem;
+    }
+    .slide__item:last-child {
+        display: none;
+    }
+
+    /* ========= feature ========== */
+    .pricing {
+        margin-top: 6rem;
+    }
+    /* ============= footer =========== */
+    .footer__gird {
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .items {
+        
+        padding: 2rem 1rem;
+    }
+    .footer__logo img {
+        margin-left: 3rem;
+        margin-top: 0.6rem;
+    }
+    .footer__socials .footer__text i {
+        padding-right: 1rem;
+    }
+    .footer__socials .footer__text {
+        font-size: 2rem;
+    }
+    .ft__text-child {
+        margin-top: -1.3rem;
+    }
+    .footer__text {
+        font-size: 1.4rem;
+    }
+}  
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em) { 
+    .pricing__item {
+        width: 54%;
+    }
+    .main__text h1 {
+        font-size: 6rem;
+    }
+    .main__text p {
+        padding: 0 1rem;
+        text-align: center;
+    }
+    
+    .slide__item {
+        padding: 0;
+        max-width: 50%;
+        justify-content: center;
+        align-items: center;
+        place-self: center;
+    }
+    .slide__item:first-child {
+        padding-left: 3rem;
+    }
+    .slide__item:last-child {
+        padding-right: 3rem;
+    }
+    .clients__slide {
+        column-gap: 0;
+    }
+    .ct__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ct__flex p {
+        width: 50%;
+        padding-top: 2rem;
+    }
+    .items {
+        padding: 2rem 7rem;
+    }
+    .footer__text {
+        font-size: 1.6rem;
+    }
+}
+ /* pc: width >= 1024px; */
+@media only screen and (min-width: 64.000em) {
+   
+} 

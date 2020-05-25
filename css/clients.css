@@ -1,0 +1,50 @@
+.clients {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.clients__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients__title h3 {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 4.4rem;
+    color: var(--black-color);
+}
+.clients__title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: var(--text-color);
+}
+.clients__slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.slide__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clients_dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 .7rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}

@@ -1,0 +1,118 @@
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr;
+}
+.pricing__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing__text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: var(--text-color);
+    padding-bottom: 2rem;
+}
+.pricing__text p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--black-color);
+    width: 57%;
+    text-align: center;
+}
+/* ============ pricing item ============= */
+.pricing__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
+}
+.pricing__item {
+    background-color: var(--white-color);
+    
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.pricing__item:hover {
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+}
+.pricing__item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: var(--text-color);
+    padding-top: 4rem;
+}
+.pricing__item h3 {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--blue-hover-color);
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.pricing__item p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height:2.7rem;
+    color: var(--black-color);
+    width: 60%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.pricing__item > ul  {
+    margin-bottom: 3rem;
+}
+.pricing__item > ul > li {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+    color: var(--black-color);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.2rem 0;
+}
+.pricing__item > ul > li > .icon__checked {
+    color: var(--blue-hover-color);
+}
+.pricing__item > ul > li > i {
+    color:#eee;
+    padding-right: 1rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+.pricing__item .btn {
+    margin-bottom: 3rem;
+    background-color: var(--blue-color);
+}
+.pricing__item .btn:hover {
+    background-color: var(--pink-color);
+}
+.pricing__btn {
+    padding: .6rem 2.2rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem !important;
+    background-color: var(--blue-hover-color) !important;
+}
+.pricing__item .not__space {
+    padding-top: 0;
+}
+.pricing__item {
+    transform: scale(1);
+}
+.pricing__scale {
+    transform: scale(1.1);
+    border: .6rem dashed var(--blue-hover-color);
+}

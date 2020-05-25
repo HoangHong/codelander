@@ -1,0 +1,37 @@
+
+.reverse__layout{
+    order: 1;
+    
+}
+.services__content {
+    padding-right: 10rem;
+    padding-left: 0 !important;
+}
+
+.services-m__text {
+    font-size: 2.2rem !important;
+    line-height: 4.4rem !important;
+}
+.services-l__text {
+    font-size: 4.5rem !important;
+    line-height: 4.5rem !important;
+}
+.services__btn {
+    width: 100%;
+    border-radius: 14rem !important;
+    padding: 1.6rem 3rem;
+    background-color: var(--blue-color) !important;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: left;
+
+}
+.services__btn  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3rem;
+}
+.services__btn:hover {
+    background-color: var(--blue-hover-color) !important;
+}

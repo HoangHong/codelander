@@ -1,0 +1,44 @@
+.pricing__text h3 {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 4.4rem;
+    color: var(--black-color);
+}
+.feature__item h3 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    line-height: 4rem !important;
+    color: var(--text-color) !important ;
+    padding-bottom: 1rem !important;
+}
+.not__border h3 {
+    padding-bottom: 0 !important;
+}
+.feature__item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #ccc;
+    line-height: 1.8rem;
+    padding-bottom: 1rem;
+}
+.feature__item p {
+    font-size: 1.4rem !important;
+    line-height: 2.1rem !important;
+    width: 70% !important;
+    text-align: center;
+}
+.not__backfground {
+    background-color: transparent !important;
+    color: var(--blue-hover-color) !important;
+}
+.not__backfground:hover {
+    color: var(--pink-color) !important;
+}
+.feature__item img {
+    margin: 4rem 0;
+}
+.not__border {
+    border: 0 !important;
+}

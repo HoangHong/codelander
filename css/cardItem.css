@@ -1,0 +1,30 @@
+.carditem__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card__item img {
+    height: 95px;
+    width: 95px;
+}
+.card__item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    line-height: 5.4rem;
+}
+.card__item p {
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--black-color);
+    font-weight: 300;
+}

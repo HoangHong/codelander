@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/setting.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__grid">
+            <div class="header__logo">
+                <a href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <!-- ============== pc ============ -->
+            <nav class="header__nav">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Clients</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">News</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item header__btn">
+                        <button class="btn">
+                              SignUp
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <label class="nav__bars-btn" for="nav__bar-mobile-inpt">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            </label>
+            <input type="checkbox" hidden name="" id="nav__bar-mobile-inpt" class="nav__input">
+            <label class="nav__overlay" for="nav__bar-mobile-inpt">
+            </label>
+            <nav class="header__nav-mobile">
+                <label class="nav__mobile-close" for="nav__bar-mobile-inpt">
+                         
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                 </label>
+                <ul class="menu__list-mobile">
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">Home</a></li>
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">Services</a></li>
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">Pricing</a></li>
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">Clients</a></li>
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">News</a></li>
+                    <li class="menu__item-mobile"><a href="#" class="menu__link-mobile">Contact</a></li>
+                    <li class="menu__item-mobile header__btn">
+                         <button class="btn btn__mobile">SignUp</button>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+</body>
+</html>
